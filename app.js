@@ -10,7 +10,7 @@ var height = content.clientHeight;
 toggle.addEventListener('click', function(){
 	if(para.classList.contains('active')) {
         para.style.height = '100px';
-        toggle.innerHtml = "Read Less>";
+        toggle.innerHtml = "Read Less<";
         para.classList.remove('active');
 
 	} else {
